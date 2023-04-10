@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+/*body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-image: url(/Ejercicio_15/media/backgorund.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}*/
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-image: url(../Ejercicio_15/media/backgorund.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh; 
+    background-position: center center;
+    background-attachment: fixed; 
+}
+
+@media screen and (max-width: 768px) {
+    /* Cambia la imagen de fondo en pantallas pequeñas */
+    body {
+        background-image: url(../Ejercicio_15/media/backgorund.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+  
+
+h1 {
+    margin-top: 3em;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos para las imágenes */
+.imagen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    padding: 1em;
+    width: 250px;
+    height: auto;
+    margin: 1em;
+    transition: all 0.3s ease-in-out;
+}
+
+.imagen:hover {
+    transform: scale(1.4);
+    padding: 1em;
+    margin: 2em;
+}
+.imagen1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    padding: 1em;
+    width: 250px;
+    height: auto;
+    margin: 1em;
+    transition: all 0.3s ease-in-out;
+}
+
+.imagen1:hover {
+    transform: scale(1.4);
+    padding: 1em;
+    margin: 2em;
+}
+.imagen2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    padding: 1em;
+    width: 250px;
+    height: auto;
+    margin: 1em;
+    transition: all 0.3s ease-in-out;
+}
+
+.imagen2:hover {
+    transform: scale(1.4);
+    padding: 1em;
+    margin: 2em;
+}
+.imagen3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    padding: 1em;
+    width: 250px;
+    height: auto;
+    margin: 1em;
+    transition: all 0.3s ease-in-out;
+}
+
+.imagen3:hover {
+    transform: scale(1.4);
+    padding: 1em;
+    margin: 2em;
+}
